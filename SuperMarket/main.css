@@ -1,0 +1,227 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background:#999;
+    color:white;
+    padding: 5px 15px;
+}
+
+header h1 {
+    margin:0;
+    display: inline;
+}
+
+nav ul {
+    margin:0;
+    display: inline;
+    padding: 0 0 0 15px;
+}
+
+nav ul li {
+    background: black;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
+}
+
+.subject {
+    text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+
+.col {
+    font-weight: bold;
+    background: burlywood;
+    color:blue;
+    text-align: center;
+    float:left;
+    margin:1%;
+    width: 31%;
+    border-style: dotted;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card a {
+    border: none;
+    outline: 0;
+    padding: 5px 67px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    object-fit: cover;
+    position: relative;
+    right: 0%;
+  }
+
+  
+  .card a:hover {
+    opacity: 0.7;
+  }
+
+.column {
+    float: left;
+  width: 33%;
+
+}
+
+.shoppingCart {
+    background: none;
+    float: right;
+
+}
+
+/* -------------------------------- SHOPPING CART -------------------------*/
+
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.products-container ion-icon {
+    font-size: 25px;
+    color:blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.img-resize {
+    max-height: 10%;
+    max-width: 50%;
+    object-fit: cover;
+    position: relative;
+    left: -20%;
+    
+}
+
+.itemName {
+    position: relative;
+    left: -20%;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.productPrice {
+    position: relative;
+    top: -115px;
+    left: 290px;
+
+
+}
+
+.productQuantity {
+    position: relative;
+    top: -140px;
+    left: 400px;
+}
+
+.totalPrice {
+    position: relative;
+    top: -165px;
+    left: 580px;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+
+}
+
+.product-title {
+    width: 45%;
+}
+
+.priceCart {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.quantity {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    ;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    width: 30%;
+}
+
+.basketTotal {
+    width: 10%;
+}
+
+.clrBasket {
+    position: relative;
+    left: 515px;
+    top: -20px;
+}
